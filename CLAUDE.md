@@ -31,4 +31,10 @@ The entire app lives in a single file (`tictactoe.html`) with inline CSS and JS 
 
 ## Git workflow
 
-Changes are committed and pushed to `https://github.com/Alrmendo/tictactoe` after each meaningful change. Branch: `master`.
+Remote: `https://github.com/Alrmendo/tictactoe` — branch: `master`.
+
+After every meaningful piece of work (new feature, bug fix, refactor, config change), commit and push immediately. Never let completed work sit uncommitted. This ensures we can always revert to a known-good state.
+
+- Commit messages must be concise and descriptive — say what changed and why, not just "update file".
+- One logical change per commit; don't bundle unrelated changes.
+- Always push after committing so GitHub stays in sync with local state.
